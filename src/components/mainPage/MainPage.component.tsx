@@ -1,7 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react'
+import { useHistory } from 'react-router-dom';
 import './MainPage.component.css';
 
 export default function MainPage() {
+
 
     const [start, setStart] = useState(0);
     const limit = 3;
@@ -12,6 +14,8 @@ export default function MainPage() {
         imgThumbnail: "",
         detailText: ""
     }]);
+
+    const history = useHistory();
 
     const loadPosts = useCallback(async () => {
         await fetch(`http://localhost:3000/posts?_start=${start}&_limit=${limit}`)
@@ -34,7 +38,9 @@ export default function MainPage() {
     }
 
     const handleClickOnPost = (post: any) => {
-        console.log(post);
+        // console.log(post);
+        history.push(`/${post.id}/post-details`);
+        
     }
 
     useEffect(() => {
