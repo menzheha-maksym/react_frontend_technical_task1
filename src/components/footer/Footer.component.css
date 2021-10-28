@@ -1,0 +1,84 @@
+.footer {
+    background: #303036;
+    color: #d3d3d3;
+    height: 250px;
+    position: relative;
+}
+
+  
+.footer-content {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footer-content h1,
+.footer-content h2 {
+    color: white;
+}
+  
+.about h1 span {
+    color: #0569ff;
+}
+
+.contact .city {
+    color: white;
+}
+  
+.contact span {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: grey;
+}
+.socials, .subscribe-form {
+    margin-top: 2rem;
+}
+  
+.socials h2,
+.subscribe-form h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.socials a {
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+  
+.socials a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+    
+.subscribe-input {
+    background: #303036;
+    margin-bottom: 10px;
+    padding: .9rem 1.4rem;
+    width: 200px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+}
+  
+.subscribe-btn {
+    float: right;
+    font-size: 16px;
+    padding: .8rem 3rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    background-color: #058fff;
+}
