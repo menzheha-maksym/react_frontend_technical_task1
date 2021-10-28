@@ -33,6 +33,10 @@ export default function MainPage() {
         setStart(start + limit);
     }
 
+    const handleClickOnPost = (post: any) => {
+        console.log(post);
+    }
+
     useEffect(() => {
         loadPosts();
     }, [loadPosts]);
@@ -48,7 +52,9 @@ export default function MainPage() {
             <h2 className="posts-title">Title</h2>
             <div className="posts-container">
                 {posts.map((post, key) => {
-                    return <div key={key} className="post" style={{ backgroundImage: `url(${post.imgThumbnail})` }}>
+                    return <div key={key} className="post" 
+                    onClick={() => handleClickOnPost(post)}
+                    style={{ backgroundImage: `url(${post.imgThumbnail})` }}>
                         <div className="post-name">POST{post.id + 1}</div>
                     </div>;
                 })}
