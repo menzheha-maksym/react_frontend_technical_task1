@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="navbar">
-                <a href="#logo" className="logo">WebStudio</a>
+                <a href="#logo" className="logo"><span>Web</span>Studio</a>
                 <a className="nav-link nav-link-grow-up" href="#1">Студия</a>
                 <a className="nav-link nav-link-grow-up" href="#2">Портфолио</a>
                 <a className="nav-link nav-link-grow-up" href="#3">Контакты</a>
