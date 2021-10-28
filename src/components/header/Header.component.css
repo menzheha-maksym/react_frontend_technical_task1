@@ -71,6 +71,9 @@
 }
 
 .contact:hover {
-    color: #066aff;
-    
+    color: #066aff;   
+}
+
+.contact i {
+    margin-right: 5px;
 }
