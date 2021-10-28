@@ -1,3 +1,5 @@
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import './Footer.component.css'
 
@@ -18,10 +20,10 @@ export default function Footer() {
                 <div className="socials">
                     <h2>Присоединяйтесь</h2>
                     <div className="socials-icons">
-                        <a href="#1"><i className="fab fa-facebook"></i></a>
-                        <a href="#2"><i className="fab fa-instagram"></i></a>
-                        <a href="#3"><i className="fab fa-twitter"></i></a>
-                        <a href="#4"><i className="fab fa-youtube"></i></a>
+                        <a href="#1"><i><FontAwesomeIcon icon={faInstagram}/></i></a>
+                        <a href="#2" className="twitter"><i><FontAwesomeIcon icon={faTwitter}/></i></a>
+                        <a href="#3"><i><FontAwesomeIcon icon={faFacebookF}/></i></a>
+                        <a href="#4"><i><FontAwesomeIcon icon={faLinkedinIn}/></i></a>
                     </div>
                 </div>
 

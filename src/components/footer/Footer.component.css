@@ -47,12 +47,25 @@
     width: 45px;
     height: 41px;
     padding-top: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
     text-align: center;
     display: inline-block;
     font-size: 1.3em;
-    border-radius: 5px;
+    border-radius: 50%;
+    border: none;
     transition: all .3s;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    vertical-align: middle;
+}
+
+.socials i {
+    vertical-align: middle;
+}
+
+.socials .twitter {
+    background-color: #0569ff;
 }
   
 .socials a:hover {
