@@ -94,3 +94,19 @@
     color: white;
     background-color: #058fff;
 }
+
+@media screen and (max-width: 900px) {
+
+    .footer-content {
+        flex-direction: column;
+        background-color: #303036;
+    }
+
+    .subscribe-input {
+        width: 85%;
+    }
+    .subscribe-btn {
+        width: 100%;
+    }
+
+}
