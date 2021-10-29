@@ -48,7 +48,7 @@ export default function MainPage() {
     }, [loadPosts]);
 
     return (
-        <div>
+        <div className="main-page-container">
             <div className="main-image-container">
                 <span>Lorem ipsum dolor sit <br />
                     amet consectetur.</span>

@@ -5,6 +5,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     min-height: 600px;
+    flex: 1;
 }
 
 .cont img {
