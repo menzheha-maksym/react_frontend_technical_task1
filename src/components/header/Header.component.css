@@ -5,6 +5,10 @@
     justify-content: space-evenly;
 }
 
+.responsive-navbar-header {
+    margin-top: 0.8rem;
+}
+
 .logo {
     margin-right: 3rem;
     font-size: 21px;
