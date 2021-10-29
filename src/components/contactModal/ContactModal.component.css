@@ -1,0 +1,167 @@
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 600px;
+    /* width: 50%; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    text-align: center;
+    color: black;
+  }
+.modal-header h2 {
+    margin-top: 2rem;
+}
+  
+.modal-body {padding: 0 2rem 0 2rem;}
+
+.modal-input-from {
+    margin-top: 1rem;
+}
+
+
+.modal-text-input {
+    width: 95%;
+    font-size: 30px;
+    
+    /* padding: 0 0 1rem; */
+    border-radius: 5px;
+    border: 1px solid grey;
+
+    padding: 0 0 0 30px;
+}
+
+.modal-text-input:hover,
+.modal-text-input:focus {
+    cursor: pointer;
+    outline: none !important;
+    border:1px solid #058fff;
+}
+
+.modal-input-form textarea {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    resize: none;
+    position: relative;
+}
+
+.modal-input-form .user-icon {
+    position: absolute;
+    /* padding-top: 1.8rem; */
+    left: 40px;
+    top: 115px;
+}
+
+.modal-input-form .phone-icon {
+    position: absolute;
+    left: 40px;
+    top: 175px;
+}
+
+.modal-input-form .email-icon {
+    position: absolute;
+    left: 40px;
+    top: 233px;
+}
+
+
+.modal-input-form textarea::placeholder {
+    padding: 0.5rem;
+}
+
+.modal-input-form textarea:hover,
+.modal-input-form textarea:focus{
+    cursor: pointer;
+    outline: none !important;
+    border:1px solid #058fff;
+}
+
+  
+.modal-footer {
+    padding: 2px 16px;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.label {
+    color: grey;
+}
+
+.label span {
+    cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+}
+
+.label input {
+    transform: scale(2);
+    margin-right: 1rem;
+}
+
+.send-btn {
+    font-size: 16px;
+    padding: .8rem 3rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #058fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.send-btn:hover,
+.send-btn:focus {
+    cursor: pointer;
+}
