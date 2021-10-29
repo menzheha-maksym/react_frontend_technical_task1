@@ -15,7 +15,6 @@ export default function Header() {
             </div>
             <div className="contacts">
                 <ContactModal />
-                {/* <a className="contact" href="#4"><i><FontAwesomeIcon icon={faEnvelope}/></i>info@devstudio.com</a> */}
                 <a className="contact" href="#5"><i><FontAwesomeIcon icon={faMobile}/></i>+38 096 111 11 11</a>
             </div>
         </div>

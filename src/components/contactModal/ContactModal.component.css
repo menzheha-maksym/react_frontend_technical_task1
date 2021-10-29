@@ -1,3 +1,23 @@
+.contact-email {
+    position: relative;
+    bottom: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    color: #031D44;
+    display: inline-block;
+    position: relative;
+    opacity: 75%;
+}
+
+.contact-email:hover {
+    color: #066aff;   
+}
+
+.contact-email i {
+    margin-right: 5px;
+}
+
 .modal {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
